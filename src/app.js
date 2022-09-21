@@ -36,7 +36,7 @@ yargs.command({
  * command: stats
  * Purpose: Generates random metar reports and then reads one by one to compute stats like running avegare wind speed and current speed.
  * arguments: count -> total count of random reports to be generated
- * example: node src/app.js generate --count=100
+ * example: node src/app.js stats --count=1000
  */
 yargs.command({
     command: 'stats',
