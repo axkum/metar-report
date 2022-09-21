@@ -41,14 +41,11 @@ const createMeterReport = function() {
 }
 
 const createMeterReports =  function(count) {
-    //console.log('count: ' + count);
-    //console.log('generating metar-reports...');
     const c = count > 0 ? count : 1;
     const reports = [];
     for (var i = 0; i < c; i++) {
         reports.push(createMeterReport());
     }
-    //console.log('generated metar-reports!!');
     return reports;
 }
 
